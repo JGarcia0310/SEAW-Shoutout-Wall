@@ -96,8 +96,8 @@
     .stage{
       display:flex;
       flex-direction:column;
-      min-height:700px;
-      height:700px;
+      min-height:780px;
+      height:780px;
     }
 
     .stage-header{
@@ -115,12 +115,13 @@
     .feature{
       flex:1 1 auto;
       min-height:0;
-      padding:30px;
+      padding:34px 34px 28px;
       display:flex;
       flex-direction:column;
-      justify-content:center;
+      justify-content:flex-start;
       transition:opacity .25s ease;
-      overflow:hidden;
+      overflow-y:auto;
+      overflow-x:hidden;
     }
 
     .chips{
@@ -155,8 +156,8 @@
     }
 
     .message{
-      font-size:clamp(1.15rem,1.8vw,1.6rem);
-      line-height:1.55;
+      font-size:clamp(1.1rem,1.65vw,1.45rem);
+      line-height:1.6;
       margin-bottom:26px;
       white-space:pre-wrap;
       overflow-wrap:anywhere;
@@ -228,8 +229,8 @@
       display:flex;
       flex-direction:column;
       gap:12px;
-      min-height:700px;
-      height:700px;
+      min-height:780px;
+      height:780px;
       overflow:hidden;
     }
 
@@ -350,9 +351,9 @@
 
     .ticker{
       display:flex;
-      gap:40px;
+      gap:56px;
       white-space:nowrap;
-      animation:scroll 45s linear infinite;
+      animation:scroll 90s linear infinite;
       padding:14px 0;
       min-width:max-content;
     }
